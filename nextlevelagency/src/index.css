@@ -1,0 +1,26 @@
+:root {
+  width: 100%;
+  height: auto;
+
+  --color-header-bg: #f0f0f0;
+  --color-bg: #ffffff;
+  --color-text: #222;
+  --color-accent: #0077ff;
+}
+
+[data-theme="dark"] {
+  --color-header-bg: #222;
+  --color-bg: #121212;
+  --color-text: #f5f5f5;
+  --color-accent: #66aaff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.3s, color 0.3s;
+}

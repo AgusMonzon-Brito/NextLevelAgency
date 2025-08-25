@@ -1,0 +1,95 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--color-header-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: background 0.3s;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background: var(--color-bg);
+  clip-path: circle(100px at center top);
+  z-index: 999;
+  transition: background 0.3s;
+}
+
+.logo p {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 26px;
+  cursor: default;
+  color: var(--color-text);
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navList {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navList:hover,
+.themeButton:hover,
+.langButton:hover {
+  color: var(--color-accent);
+}
+
+.themeButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.langButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.langBar {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-text);
+  border-radius: 8px;
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  z-index: 10;
+}
+
+.langList {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: var(--color-text);
+  transition: background 0.3s;
+}
+
+.langList:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
