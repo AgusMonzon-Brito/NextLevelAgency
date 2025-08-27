@@ -6,6 +6,8 @@
   --color-bg: #ffffff;
   --color-text: #222;
   --color-accent: #0077ff;
+
+  --color-capa: #c1c1c1;
 }
 
 [data-theme="dark"] {
@@ -13,6 +15,7 @@
   --color-bg: #121212;
   --color-text: #f5f5f5;
   --color-accent: #66aaff;
+  --color-capa: #1c1c1c;
 }
 
 html,
