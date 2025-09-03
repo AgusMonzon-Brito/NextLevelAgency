@@ -2,19 +2,19 @@
   {
     "id": 1,
     "titulo": "E-Commerce",
-    "texto": "",
+    "texto": "Creamos la imagen perfecta para tu comercio.",
     "imagen": ""
   },
   {
     "id": 2,
     "titulo": "Academy",
-    "texto": "",
+    "texto": "Mejoramos el método de estudio.",
     "imagen": ""
   },
   {
     "id": 3,
     "titulo": "Real State",
-    "texto": "",
+    "texto": "Potenciamos las ventas de tu inmobiliaria.",
     "imagen": ""
   }
 ]

@@ -52,12 +52,7 @@ const Home = () => {
                     <h2>{card.titulo}</h2>
                     <p>{card.texto}</p>
                     <i
-                      className="bi bi-arrow-down-right-square-fill"
-                      style={{
-                        fontSize: "2rem",
-                        color: "var(--color-accent)",
-                        cursor: "pointer",
-                      }}
+                      className={`bi bi-arrow-down-right-square-fill ${styles.flecha} ${styles.flechaDerecha}`}
                       onClick={() => toggleFlip(card.id)}
                     ></i>
                   </div>
@@ -70,12 +65,7 @@ const Home = () => {
                     <p>{card.precio}</p>
                     <button className={styles.solicitarBtn}>Solicitar</button>
                     <i
-                      className="bi bi-arrow-down-left-square-fill"
-                      style={{
-                        fontSize: "2rem",
-                        color: "var(--color-accent)",
-                        cursor: "pointer",
-                      }}
+                      className={`bi bi-arrow-down-left-square-fill ${styles.flecha} ${styles.flechaIzquierda}`}
                       onClick={() => toggleFlip(card.id)}
                     ></i>
                   </div>
