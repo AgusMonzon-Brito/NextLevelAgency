@@ -28,6 +28,25 @@ const Home = () => {
     <>
       <Header />
       <main className={styles.home}>
+        <div className={styles.glassContainer}>
+          <h3 className={styles.tittleHome}>Agencia de publicidad digital</h3>
+          <h1 className={styles.titleHome}>
+            Sitios web profesionales y soluciones a medida
+          </h1>
+          <p className={styles.textHome}>
+            Desarrollamos páginas únicas, <strong>tiendas online</strong>,
+            plataformas académicas,{" "}
+            <strong>sitios 3D para inmobiliarias</strong>, aplicaciones internas, automatización de
+            procesos, y mucho más.
+            <br />
+            <br />
+            También potenciamos tu negocio con <strong>SEO</strong>, publicidad
+            digital e integración con redes sociales.
+          </p>
+          <p className={styles.subtitle}>
+            En NextLevel transformamos ideas en experiencias digitales reales.
+          </p>
+        </div>
         <video muted autoPlay loop className={styles.videoContainer}>
           <source src={videoFile} type="video/mp4" className={styles.video} />
         </video>
