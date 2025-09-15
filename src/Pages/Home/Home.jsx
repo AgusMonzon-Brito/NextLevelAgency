@@ -4,6 +4,7 @@ import styles from "./Home.module.css";
 import Header from "@/Components/Header/Header.jsx";
 import Footer from "@/Components/Footer/Footer.jsx";
 import videoFile from "@/Assets/Videos/201947-916877801_tiny.mp4";
+import Form from "../../Components/Form/Form";
 
 const Home = () => {
   const [cards, setCards] = useState([]);
@@ -93,6 +94,8 @@ const Home = () => {
             ))}
           </div>
         </div>
+
+      <Form/>
       </main>
       <Footer />
     </>
